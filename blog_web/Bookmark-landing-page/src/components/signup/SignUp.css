@@ -1,0 +1,25 @@
+ 
+
+ /* SignUp.css */
+
+
+
+
+
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .registermaincontainer {
+    flex-direction: column-reverse;
+  }
+
+  .registerright {
+    display: none;
+  }
+
+  .registerleft {
+    width: 100%;
+  }
+}
+
+/* Add styles for different screen sizes as needed */

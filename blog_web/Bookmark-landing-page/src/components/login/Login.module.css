@@ -1,0 +1,89 @@
+
+
+/* Login.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Background color for the entire page */
+}
+
+.innerBox {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Heading text color */
+}
+
+.error {
+  color: #ff0000; /* Error message color */
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.footer button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff; /* Primary button color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.footer1 button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ff0000; /* Primary button color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.footer button:disabled {
+  background-color: #ccc; /* Disabled button color */
+  cursor: not-allowed;
+}
+
+.footer button:hover {
+  background-color: #0056b3; /* Hovered button color */
+}
+
+.googleButton {
+  background-color: #f70424; /* Google sign-in button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.googleButton:hover {
+  background-color: #f81010; /* Hovered Google button color */
+}
+
+.footer1 {
+  display: flex;
+  justify-content: center;
+ color: #ff0000;
+}
+
